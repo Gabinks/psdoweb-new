@@ -1,0 +1,23 @@
+import React from "react";
+import Image from "next/image";
+import {ABeeZee} from "next/font/google";
+
+const abezee = ABeeZee({weight: ["400"], subsets: ['latin']})
+
+export default function Footer() {
+    return <footer className={"w-full"}>
+        <ul className={`flex items-center justify-end gap-20 p-10 text-sm ${abezee.className}`}>
+            <li>Nous contacter</li>
+            <li>F.A.Q</li>
+            <li>CGU</li>
+            <li>Mentions légales</li>
+            <li>baptiste.petit@psdoweb.com</li>
+            <li>06-82-99-85-27</li>
+            <div className={"flex items-center gap-10"}>
+                <Image src={"/images/socials_network/Facebook.png"} alt={"Logo Facebook"} width={40} height={40}/>
+                <Image src={"/images/socials_network/Instagram.png"} alt={"Logo Instagram"} width={40} height={40}/>
+                <Image src={"/images/socials_network/Linkedin.png"} alt={"Logo Linkedin"} width={40} height={40}/>
+            </div>
+        </ul>
+    </footer>
+}
