@@ -6,7 +6,7 @@ const abezee = ABeeZee({weight: ["400"], subsets: ['latin']})
 
 export default function Footer() {
     return <footer className={"w-full"}>
-        <ul className={`flex items-center justify-end gap-20 p-10 text-sm ${abezee.className}`}>
+        <ul className={`flex xl:flex-row flex-col items-center justify-end gap-7 xl:gap-20 p-10 text-sm ${abezee.className}`}>
             <li>Nous contacter</li>
             <li>F.A.Q</li>
             <li>CGU</li>
