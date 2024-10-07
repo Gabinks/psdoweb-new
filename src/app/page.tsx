@@ -1,5 +1,3 @@
-import Header from "@/app/components/Header";
-import Footer from "@/app/components/Footer";
 import TextSlidin from "@/app/components/TextSlidin";
 import Image from "next/image";
 import CustomButton from "@/app/components/CustomButton";
@@ -7,7 +5,6 @@ import CustomButton from "@/app/components/CustomButton";
 export default function Home() {
     return (
         <>
-            <Header/>
             <main
                 className={"flex flex-col gap-10 items-center bg-[url('/images/utils/background_image.jpg')] bg-center bg-cover w-screen min-h-screen max-h-fit"}>
                 <div className={"pt-36 lg:pt-28 flex flex-col md:items-start items-center z-30"}>
@@ -34,7 +31,6 @@ export default function Home() {
                     <CustomButton text={"Nous contacter"}/>
                 </div>
             </main>
-            <Footer/>
         </>
     );
 }

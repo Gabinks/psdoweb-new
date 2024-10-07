@@ -21,14 +21,14 @@ export default function Header() {
 
     return <header
         className={"fixed lg:relative top-0 w-full flex items-center justify-between z-50 px-12 sm:px-32 py-5 drop-shadow-md bg-white"}>
-        <div className={"flex gap-3 items-center"}>
-            <Image src={"/images/Logo_psdoweb.png"} alt={"Logo psdoweb"} width={50} height={50}/>
-            <p className={"text-lg"}>PSDOweb</p>
-        </div>
+        <Link href={"/"} className={"flex gap-3 items-center"}>
+            <Image src={"/images/Logo_psdoweb.png"} alt={"Logo psdoweb"} width={50} height={50} sizes={"100vw"} className={"w-9 sm:w-12 h-auto "}/>
+            <p className={"text-sm sm:text-lg"}>PSDOweb</p>
+        </Link>
         <div className={"lg:flex hidden items-center gap-5"}>
             <CustomLink href={"/"} text={"L'entreprise"}/>
             <CustomLink href={"/"} text={"Tarifs"}/>
-            <CustomLink href={"/"} text={"FAQ"}/>
+            <CustomLink href={"/faq"} text={"FAQ"}/>
         </div>
         <div className={"lg:flex hidden items-center gap-3"}>
             <CustomButton text={"Contact"}/>
@@ -37,11 +37,11 @@ export default function Header() {
                        className={"group-hover:bg-gray-100 transition-colors rounded"}/>
             </Link>
         </div>
-        <div className={"relative lg:hidden block"}>
+        <div className={"relative lg:hidden flex items-center justify-center"}>
             <button onClick={clickHandler}>
                 {isclicked ? (
                     <AnimatePresence>
-                        <motion.svg initial={{opacity: 0, translateX: -10}} whileInView={{opacity: 1, translateX: 0}}
+                        <motion.svg className={"w-7 sm:w-10 h-auto"} initial={{opacity: 0, translateX: -10}} whileInView={{opacity: 1, translateX: 0}}
                                     transition={{duration: 1}} xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                     width="35"
                                     height="35"
@@ -51,7 +51,7 @@ export default function Header() {
                         </motion.svg>
                     </AnimatePresence>
                 ) : (
-                    <motion.svg initial={{opacity: 0, translateX: 10}} whileInView={{opacity: 1, translateX: 0}}
+                    <motion.svg className={"w-7 sm:w-10 h-auto"} initial={{opacity: 0, translateX: 10}} whileInView={{opacity: 1, translateX: 0}}
                                 transition={{duration: 1}} xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                 width="35"
                                 height="35"

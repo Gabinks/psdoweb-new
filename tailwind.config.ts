@@ -19,10 +19,10 @@ const config: Config = {
       fontWeight: {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         //@ts-expect-error
-        'extra-light': 300,
+        'light': 300,
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         //@ts-expect-error
-        'light': 400,
+        'regular': 400,
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         //@ts-expect-error
         'bold': 700,

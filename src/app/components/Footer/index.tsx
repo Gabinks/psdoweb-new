@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import {ABeeZee} from "next/font/google";
+import Link from "next/link";
 
 const abezee = ABeeZee({weight: ["400"], subsets: ['latin']})
 
@@ -8,7 +9,7 @@ export default function Footer() {
     return <footer className={"w-full"}>
         <ul className={`flex xl:flex-row flex-col items-center justify-end gap-7 xl:gap-20 p-10 text-sm ${abezee.className}`}>
             <li>Nous contacter</li>
-            <li>F.A.Q</li>
+            <li><Link href={'/faq'}>F.A.Q</Link></li>
             <li>CGU</li>
             <li>Mentions légales</li>
             <li>baptiste.petit@psdoweb.com</li>
