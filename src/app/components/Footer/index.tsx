@@ -10,7 +10,7 @@ export default function Footer() {
         <ul className={`flex xl:flex-row flex-col items-center justify-end gap-7 xl:gap-20 p-10 text-sm ${abezee.className}`}>
             <li>Nous contacter</li>
             <li><Link href={'/faq'}>F.A.Q</Link></li>
-            <li>CGU</li>
+            <li><Link href={"/cgu"}>CGU</Link></li>
             <li><Link href={"/mentions-legales"}>Mentions légales</Link></li>
             <li>baptiste.petit@psdoweb.com</li>
             <li>06-82-99-85-27</li>
