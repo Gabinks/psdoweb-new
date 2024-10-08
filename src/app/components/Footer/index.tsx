@@ -11,7 +11,7 @@ export default function Footer() {
             <li>Nous contacter</li>
             <li><Link href={'/faq'}>F.A.Q</Link></li>
             <li>CGU</li>
-            <li>Mentions légales</li>
+            <li><Link href={"/mentions-legales"}>Mentions légales</Link></li>
             <li>baptiste.petit@psdoweb.com</li>
             <li>06-82-99-85-27</li>
             <div className={"flex items-center gap-10"}>
