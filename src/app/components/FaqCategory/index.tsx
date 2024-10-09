@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import {useState} from "react";
-import {AnimatePresence, motion} from "framer-motion";
+import {motion} from "framer-motion";
 
 export default function FaqCategory({title, description}: { title: string, description: string }) {
     const [isopen, setIsopen] = useState(false)
@@ -9,7 +9,6 @@ export default function FaqCategory({title, description}: { title: string, descr
     const clickHandler = () => {
         setIsopen(!isopen)
     }
-    const hoverVariants = {}
 
     const buttonVariants = {
         closed: {rotate: 0},

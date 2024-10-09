@@ -73,7 +73,7 @@ export default function Header() {
                     >
                         <ul className={"flex flex-col gap-3"} onClick={clickHandler}>
                             <Link href={"/"}>
-                                <li>L'entreprise</li>
+                                <li>{"L'entreprise"}</li>
                             </Link>
                             <Link href={"/"}>
                                 <li>Tarifs</li>
