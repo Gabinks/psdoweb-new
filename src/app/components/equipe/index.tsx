@@ -9,31 +9,33 @@ export default function Equipe() {
             <div className="flex flex-wrap justify-center items-center gap-8">
                 <div className="flex flex-col items-center">
                     <div className="relative w-24 h-24 md:w-32 md:h-32">
-                        <Image src={"/images/imgEquipe/jinx.png"} alt="Baptiste" layout="fill" className="object-contain rounded-full" />
+                        <Image src={"/images/imgEquipe/baptiste.jpeg"} alt="Baptiste" layout="fill" className="object-contain rounded-full" />
                     </div>
                     <p className="text-center font-bold text-lg">Baptiste</p>
                 </div>
                 <div className="flex flex-col items-center">
                     <div className="relative w-24 h-24 md:w-32 md:h-32">
-                        <Image src={"/images/imgEquipe/jinx.png"} alt="Maxime" layout="fill" className="object-contain rounded-full" />
+                        <div className={"bg-gray-200 w-24 h-24 md:w-32 md:h-32 rounded-full"}></div>
+                        {/*<Image src={"/images/imgEquipe/jinx.png"} alt="Maxime" layout="fill" className="object-contain rounded-full" />*/}
                     </div>
                     <p className="text-center font-bold text-lg">Maxime</p>
                 </div>
                 <div className="flex flex-col items-center">
                     <div className="relative w-24 h-24 md:w-32 md:h-32">
-                        <Image src={"/images/imgEquipe/jinx.png"} alt="Gabin" layout="fill" className="object-contain rounded-full" />
+                        <Image src={"/images/imgEquipe/gabin.jpeg"} alt="Gabin" layout="fill" className="object-contain rounded-full" />
                     </div>
                     <p className="text-center font-bold text-lg">Gabin</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <div className="relative w-24 h-24 md:w-32 md:h-32">                    
-                        <Image src={"/images/imgEquipe/jinx.png"} alt="Damien" layout="fill" className="object-contain rounded-full" />
+                    <div className="relative w-24 h-24 md:w-32 md:h-32">
+                        <Image src={"/images/imgEquipe/damien.jpeg"} alt="Damien" layout="fill" className="object-contain rounded-full" />
                     </div>
                     <p className="text-center font-bold text-lg">Damien</p>
                 </div>
                 <div className="flex flex-col items-center">
                     <div className="relative w-24 h-24 md:w-32 md:h-32">
-                        <Image src={"/images/imgEquipe/jinx.png"} alt="Léa" layout="fill" className="object-contain rounded-full" />
+                        <div className={"bg-gray-200 w-24 h-24 md:w-32 md:h-32 rounded-full"}></div>
+                        {/*<Image src={"/images/imgEquipe/jinx.png"} alt="Léa" layout="fill" className="object-contain rounded-full" />*/}
                     </div>
                     <p className="text-center font-bold text-lg">Léa</p>
                 </div>
