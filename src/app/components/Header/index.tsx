@@ -32,7 +32,7 @@ export default function Header() {
         </div>
         <div className={"lg:flex hidden items-center gap-3"}>
             <CustomButton text={"Contact"}/>
-            <Link href={"/"} className={"group"}>
+            <Link href={"https://www.linkedin.com/company/psdoweb/posts/?feedView=all"} target={"_blank"} className={"group"}>
                 <Image src={"/images/logo_linkedin.png"} alt={"Logo linkedin"} width={35} height={35}
                        className={"group-hover:bg-gray-100 transition-colors rounded"}/>
             </Link>
@@ -84,7 +84,7 @@ export default function Header() {
                         </ul>
                         <div className={"flex flex-col sm:flex-row items-center gap-3"}>
                             <CustomButton text={"Contact"}/>
-                            <Link href={"/"} className={"group"}>
+                            <Link href={"https://www.linkedin.com/company/psdoweb/posts/?feedView=all"} target={"_blank"} className={"group"}>
                                 <Image
                                     src={"/images/logo_linkedin.png"}
                                     alt={"Logo linkedin"}
