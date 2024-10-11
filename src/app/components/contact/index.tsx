@@ -42,7 +42,8 @@ export default function Contact() {
     };
 
     return (
-        <div className="relative w-full mt-32 lg:mt-10 bg-custom-image bg-no-repeat bg-cover bg-bottom h-screen flex flex-col justify-center items-center mx-auto below-lg:p-2" style={{ maxWidth: "calc(100% - 110px)" }}>
+        <div className={"py-32"}>
+        <div className="relative w-full bg-custom-image bg-no-repeat bg-cover bg-bottom h-screen flex flex-col justify-center items-center mx-auto below-lg:p-2" style={{ maxWidth: "calc(100% - 110px)" }}>
             <div className="flex flex-row items-center justify-between gap-20 relative z-10 below-lg:flex-col below-lg:gap-1 below-lg:mt-4 below-lg:mb-4">
                 <Image src={"/images/logo/logo.svg"} alt="Logo" className=' below-xg:hidden' width={342} height={200} />
                 
@@ -105,6 +106,7 @@ export default function Contact() {
                     </button>
                 </form>
             </div>
+        </div>
         </div>
     );
 }
