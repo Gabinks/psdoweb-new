@@ -12,7 +12,7 @@ export default function Page() {
                     <p className={"text-md min-w-20 max-w-72 w-[50vw] text-center"}>Des questions ? Ce guide vous aidera à en savoir plus sur notre plateforme et ses fonctionnalités.</p>
                 </div>
             </div>
-            <div className={"flex flex-col items-center gap-2"}>
+            <div className={"flex flex-col items-center gap-5"}>
                 <FaqCategory title={"Quels services proposez-vous ?"} description={"Nous offrons une gamme complète de services, y compris le développement de sites vitrines, e-commerce et sur mesure, l'optimisation SEO, la conception et le développement d'applications mobiles (iOS et Android), ainsi que l'intégration d'API et des solutions personnalisées."}/>
                 <FaqCategory title={"Puis-je vous contacter si je n'ai pas d'idée précise de ce que je veux ?"} description={"Absolument ! Que vous ayez une idée précise ou non, nous sommes là pour vous aider à définir votre projet et à trouver les meilleures solutions adaptées à vos besoins."}/>
                 <FaqCategory title={"Comment fonctionne le processus de développement ?"} description={"Notre processus de développement comprend plusieurs étapes clés : consultation initiale, définition du cahier des charges, conception et design, développement, tests et validation, déploiement et mise en ligne, suivi et maintenance."}/>

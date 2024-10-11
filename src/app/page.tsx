@@ -1,12 +1,15 @@
 import TextSlidin from "@/app/components/TextSlidin";
 import Image from "next/image";
 import CustomButton from "@/app/components/CustomButton";
+import Equipe from "@/app/components/equipe";
+import PourquoiNous from "@/app/components/pourquoiNous";
+import Conception from "@/app/components/conception";
 
 export default function Home() {
     return (
         <>
             <main
-                className={"flex flex-col gap-10 items-center bg-[url('/images/utils/background_image.jpg')] bg-center bg-cover w-screen min-h-screen max-h-fit"}>
+                className={"flex flex-col gap-10 items-center"}>
                 <div className={"pt-36 lg:pt-28 flex flex-col md:items-start items-center z-30"}>
                     <TextSlidin/>
                     <p className={"font-almarai font-bold text-2xl sm:text-4xl md:text-5xl xl:text-6xl"}>uniques et sécurisés</p>
@@ -30,6 +33,9 @@ export default function Home() {
                 <div className={"bg-[url('/images/utils/fleche.png')] bg-center bg-contain h-[2rem] sm:h-auto sm:bg-contain w-[80vw] min-w-56 max-w-72 sm:max-w-none sm:w-[40rem] py-2 flex justify-center items-center"}>
                     <CustomButton text={"Nous contacter"}/>
                 </div>
+                <Equipe/>
+                <PourquoiNous/>
+                <Conception/>
             </main>
         </>
     );

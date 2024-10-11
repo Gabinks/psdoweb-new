@@ -21,9 +21,7 @@ export default function FaqCategory({title, description}: { title: string, descr
     }
 
     return (
-        <motion.div className={"px-8 lg:px-16 py-3 bg-white drop-shadow-lg w-[85vw] sm:w-[70vw] md:w-[60vw]"}
-                    whileHover={{borderWidth: 3, borderColor: "lightgray"}}
-                    transition={{duration: 0.6, type: "spring"}}>
+        <div className={"px-8 lg:px-16 py-3 bg-white drop-shadow-lg w-[85vw] sm:w-[70vw] md:w-[60vw] hover:bg-gray-50 transition-colors"}>
             <button onClick={clickHandler} className={"flex justify-between items-center w-full"}>
                 <h3 className={"font-bold w-[35vw] text-xs md:text-sm lg:text-lg px-2 text-left"}>{title}</h3>
                 <motion.div
@@ -46,6 +44,6 @@ export default function FaqCategory({title, description}: { title: string, descr
             >
                 <p className={"font-light text-xs md:text-sm lg:text-lg"}>{description}</p>
             </motion.div>
-        </motion.div>
+        </div>
     )
 }

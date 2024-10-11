@@ -9,8 +9,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right top, #1A78A8, #0C364B)',
+        'custom-image': "url('/images/fondForm.svg')",
+      },
+      screens: {
+        'below-lg': { 'max': '1024px' },
+        'below-xg': { 'max': '573px' },
+      },
       colors: {
         "yellow": "#FFF502",
+        'yellowPSDO': '#FFF60D',
         "yellow-hover": "#f3e500"
       },
       fontFamily: {

@@ -26,7 +26,7 @@ export default function Header() {
             <p className={"text-sm sm:text-lg"}>PSDOweb</p>
         </Link>
         <div className={"lg:flex hidden items-center gap-5"}>
-            <CustomLink href={"/"} text={"L'entreprise"}/>
+            <CustomLink href={"/#entreprise"} text={"L'entreprise"}/>
             <CustomLink href={"/"} text={"Tarifs"}/>
             <CustomLink href={"/faq"} text={"FAQ"}/>
         </div>
