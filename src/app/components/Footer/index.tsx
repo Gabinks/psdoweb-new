@@ -8,7 +8,7 @@ const abezee = ABeeZee({weight: ["400"], subsets: ['latin']})
 export default function Footer() {
     return <footer className={"w-full"}>
         <ul className={`flex xl:flex-row flex-col items-center justify-end gap-7 xl:gap-20 p-10 text-sm ${abezee.className}`}>
-            <li>Nous contacter</li>
+            <li><Link href={"/contact"}>Nous contacter</Link></li>
             <li><Link href={'/faq'}>F.A.Q</Link></li>
             <li><Link href={"/cgu"}>CGU</Link></li>
             <li><Link href={"/mentions-legales"}>Mentions légales</Link></li>
@@ -17,7 +17,7 @@ export default function Footer() {
             <div className={"flex items-center gap-10"}>
                 <Image src={"/images/socials_network/Facebook.png"} alt={"Logo Facebook"} width={40} height={40}/>
                 <Image src={"/images/socials_network/Instagram.png"} alt={"Logo Instagram"} width={40} height={40}/>
-                <Link href={"https://fr.linkedin.com/company/psdoweb"}>
+                <Link href={"https://fr.linkedin.com/company/psdoweb"} target={"_blank"}>
                     <Image src={"/images/socials_network/Linkedin.png"} alt={"Logo Linkedin"} width={40} height={40}/>
                 </Link>
             </div>
