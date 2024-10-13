@@ -15,8 +15,7 @@ export default function Equipe() {
                 </div>
                 <div className="flex flex-col items-center">
                     <div className="relative w-24 h-24 md:w-32 md:h-32">
-                        <div className={"bg-gray-200 w-24 h-24 md:w-32 md:h-32 rounded-full"}></div>
-                        {/*<Image src={"/images/imgEquipe/jinx.png"} alt="Maxime" layout="fill" className="object-contain rounded-full" />*/}
+                        <Image src={"/images/imgEquipe/maxime.jpg"} alt="Maxime" layout="fill" className="object-cover rounded-full" />
                     </div>
                     <p className="text-center font-bold text-lg">Maxime</p>
                 </div>

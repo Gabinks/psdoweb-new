@@ -19,7 +19,7 @@ export default function RootLayout({
             className={"font-almarai"}
         >
         <Header/>
-        <main className={"bg-[url('/images/utils/background_image.jpg')] bg-center bg-cover w-screen min-h-screen max-h-fit"}>
+        <main className={"bg-[url('/images/utils/background_image.jpg')] bg-center bg-cover w-screen"}>
             {children}
         </main>
         <Footer/>
