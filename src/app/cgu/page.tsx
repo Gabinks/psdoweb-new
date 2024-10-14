@@ -10,8 +10,8 @@ export default function Page() {
                 <h2 className={"w-[80vw] lg:w-[30vw] font-extrabold text-center text-sm sm:text-lg"}>{"Découvrez nos mentions légales pour en savoir plus sur les conditions d'utilisation relatives à notre entreprise."}</h2>
             </div>
             <div className={"bg-white py-5 px-10 w-72 xl:w-[30vw] shadow-inner drop-shadow flex flex-col gap-5 mx-5 sm:mx-0"}>
-                <h4 className={"text-xl xl:text-3xl font-bold self-center"}>Sommaire des articles</h4>
-                <ul className={"list-decimal text-base sm:text-lg xl:text-2xl flex flex-col gap-3"}>
+                <h4 className={"text-xl xl:text-2xl font-bold self-center"}>Sommaire des articles</h4>
+                <ul className={"list-decimal text-base sm:text-lg xl:text-xl flex flex-col gap-3"}>
                     <li>
                         <Link href={"#1"} className={"flex items-center justify-between group hover:underline"}>Objet <Image
                             src={"/images/icons/arrow.png"} alt={"fleche"} width={20} height={20}
