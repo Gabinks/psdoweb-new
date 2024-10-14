@@ -15,8 +15,10 @@ export default function Footer() {
             <li><Link href={"mailto:baptiste.petit@psdoweb.com"}>baptiste.petit@psdoweb.com</Link></li>
             <li>06-82-99-85-27</li>
             <div className={"flex items-center gap-10"}>
-                <Image src={"/images/socials_network/Facebook.png"} alt={"Logo Facebook"} width={40} height={40}/>
-                <Image src={"/images/socials_network/Instagram.png"} alt={"Logo Instagram"} width={40} height={40}/>
+                <Link href={"https://www.facebook.com/profile.php?id=61561080124705"} target={"_blank"}>
+                    <Image src={"/images/socials_network/Facebook.png"} alt={"Logo Facebook"} width={40} height={40}/>
+                </Link>
+                {/*<Image src={"/images/socials_network/Instagram.png"} alt={"Logo Instagram"} width={40} height={40}/>*/}
                 <Link href={"https://fr.linkedin.com/company/psdoweb"} target={"_blank"}>
                     <Image src={"/images/socials_network/Linkedin.png"} alt={"Logo Linkedin"} width={40} height={40}/>
                 </Link>
