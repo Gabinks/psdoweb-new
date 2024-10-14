@@ -16,10 +16,10 @@ export default function RootLayout({
     return (
         <html lang="fr">
         <body
-            className={"font-almarai"}
+            className={"font-almarai bg-[url('/images/utils/background_image.jpg')] bg-center bg-cover bg-fixed"}
         >
         <Header/>
-        <main className={"bg-[url('/images/utils/background_image.jpg')] bg-center bg-cover"}>
+        <main className={""}>
             {children}
         </main>
         <Footer/>
