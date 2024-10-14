@@ -9,9 +9,9 @@ export default function Page() {
                 <h1 className={"text-xl sm:text-4xl text-center font-extrabold"}>{"Conditions Générales d'Utilisation"}</h1>
                 <h2 className={"w-[80vw] lg:w-[30vw] font-extrabold text-center text-sm sm:text-lg"}>{"Découvrez nos mentions légales pour en savoir plus sur les conditions d'utilisation relatives à notre entreprise."}</h2>
             </div>
-            <div className={"bg-white p-5 shadow-inner drop-shadow flex flex-col gap-5 mx-5 sm:mx-0"}>
-                <h4 className={"text-lg sm:text-xl font-bold self-center"}>Sommaire des articles</h4>
-                <ul className={"list-decimal text-sm lg:text-base flex flex-col gap-3"}>
+            <div className={"bg-white py-5 px-10 w-72 xl:w-[30vw] shadow-inner drop-shadow flex flex-col gap-5 mx-5 sm:mx-0"}>
+                <h4 className={"text-xl xl:text-2xl font-bold self-center"}>Sommaire des articles</h4>
+                <ul className={"list-decimal text-base sm:text-lg xl:text-xl flex flex-col gap-3"}>
                     <li>
                         <Link href={"#1"} className={"flex items-center justify-between group hover:underline"}>Objet <Image
                             src={"/images/icons/arrow.png"} alt={"fleche"} width={20} height={20}
@@ -59,7 +59,7 @@ export default function Page() {
                             className={"group-hover:translate-x-1.5 transition-transform"}/></Link>
                     </li>
                     <li>
-                        <Link href={"#9"} className={"flex items-center justify-between group hover:underline max-w-64"}>Droit applicable et juridiction compétente <Image
+                        <Link href={"#9"} className={"flex items-center justify-between group hover:underline"}>Droit applicable et juridiction compétente <Image
                             src={"/images/icons/arrow.png"} alt={"fleche"} width={20} height={20}
                             className={"group-hover:translate-x-1.5 transition-transform"}/></Link>
                     </li>
