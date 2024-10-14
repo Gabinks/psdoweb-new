@@ -10,9 +10,9 @@ export default function Page() {
                 <h1 className={"text-2xl sm:text-4xl font-extrabold"}>Mentions légales</h1>
                 <h2 className={"w-[80vw] lg:w-[30vw] font-extrabold text-center text-sm sm:text-lg"}>{"Découvrez nos mentions légales pour en savoir plus sur les informations légales relatives à notre entreprise, y compris les conditions d'utilisation, la politique de confidentialité, et les détails de contact."}</h2>
             </div>
-            <div className={"flex flex-col items-center gap-3 shadow-inner drop-shadow bg-white p-5"}>
-                <h3 className={"text-2xl font-bold"}>Sommaire</h3>
-                <ul className={"flex flex-col gap-3 text-lg"}>
+            <div className={"bg-white py-5 px-10 shadow-inner drop-shadow flex flex-col items-center gap-5 mx-5 sm:mx-0"}>
+                <h3 className={"text-xl font-bold"}>Sommaire</h3>
+                <ul className={"flex flex-col gap-3"}>
                     <CustomLink text={"Editeur du site"} anchor={"editor"}/>
                     <CustomLink text={"Directeur de la publication"} anchor={"publish"}/>
                     <CustomLink text={"Hébergeur du site"} anchor={"hoster"}/>
