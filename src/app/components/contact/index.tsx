@@ -1,10 +1,8 @@
 "use client";
-import { useRouter } from "next/navigation"; // Utilise le hook de navigation de Next.js pour les pages côté client
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 export default function Contact() {
-    const router = useRouter();
     const [formData, setFormData] = useState({
         name: '',
         email: '',
