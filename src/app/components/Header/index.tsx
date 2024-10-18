@@ -75,9 +75,9 @@ export default function Header() {
                             <Link href={"/#entreprise"}>
                                 <li>{"L'entreprise"}</li>
                             </Link>
-                            <Link href={"/"}>
+                            <Link href={"/tarif"}>
                                 <li>Tarifs</li>
-                            </Link>*
+                            </Link>
                             <Link href={"/faq"}>
                                 <li>FAQ</li>
                             </Link>
