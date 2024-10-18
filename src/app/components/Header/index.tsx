@@ -27,7 +27,7 @@ export default function Header() {
         </Link>
         <div className={"lg:flex hidden items-center gap-5"}>
             <CustomLink href={"/#entreprise"} text={"L'entreprise"}/>
-            <CustomLink href={"/"} text={"Tarifs"}/>
+            <CustomLink href={"/tarif"} text={"Tarifs"}/>
             <CustomLink href={"/faq"} text={"FAQ"}/>
         </div>
         <div className={"lg:flex hidden items-center gap-3"}>
