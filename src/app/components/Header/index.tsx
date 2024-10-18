@@ -72,18 +72,18 @@ export default function Header() {
                         className="absolute z-40 top-12 left-1/2 transform -translate-x-1/2 bg-white w-fit flex flex-col gap-5 px-5 py-3 drop-shadow rounded-lg"
                     >
                         <ul className={"flex flex-col gap-3"} onClick={clickHandler}>
-                            <Link href={"/"}>
+                            <Link href={"/#entreprise"}>
                                 <li>{"L'entreprise"}</li>
                             </Link>
                             <Link href={"/"}>
                                 <li>Tarifs</li>
-                            </Link>
+                            </Link>*
                             <Link href={"/faq"}>
                                 <li>FAQ</li>
                             </Link>
                         </ul>
                         <div className={"flex flex-col sm:flex-row items-center gap-3"}>
-                            <CustomButton text={"Contact"}/>
+                            <CustomButton text={"Contact"} clickEvent={clickHandler}/>
                             <Link href={"https://www.linkedin.com/company/psdoweb/posts/?feedView=all"} target={"_blank"} className={"group"}>
                                 <Image
                                     src={"/images/logo_linkedin.png"}

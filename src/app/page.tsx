@@ -12,7 +12,7 @@ export default function Home() {
                 className={"flex flex-col gap-10 items-center"}>
                 <div className={"pt-36 lg:pt-28 flex flex-col md:items-start items-center z-30"}>
                     <TextSlidin/>
-                    <p className={"font-almarai font-bold text-2xl sm:text-4xl md:text-5xl xl:text-6xl"}>uniques et sécurisés</p>
+                    <p className={"font-almarai font-bold text-3xl sm:text-4xl md:text-5xl xl:text-6xl"}>uniques et sécurisés</p>
                 </div>
                 <div>
                     <p className={"md:w-[30vw] sm:w-[40vw] w-[65vw] px-2 text-center"}>{"Nous transformons vos idées en expériences numériques innovantes, capturant l'attention de votre public cible."}</p>
