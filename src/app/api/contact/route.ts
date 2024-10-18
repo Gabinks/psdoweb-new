@@ -9,7 +9,7 @@ const isValidPhone = (phone: string) => /^\d{10}$/.test(phone);  // Valide un nu
 
 export async function POST(req: Request) {
     if (req.method === 'POST') {
-        const { name, email, phone, message, consent } = await req.json();
+        const { name, email, phone, message, type, consent } = await req.json();
 
         // Valider les données reçues
         if (!name || !isValidEmail(email) || !isValidPhone(phone) || !consent) {
@@ -31,7 +31,7 @@ export async function POST(req: Request) {
                 from: email,  // Adresse de l'expéditeur (visiteur du site)
                 to: process.env.EMAIL_TO,  // Adresse email où recevoir le message
                 subject: `Demande de devis de ${name}`,
-                text: `Nom: ${name}\nEmail: ${email}\nTéléphone: ${phone}\nMessage: ${message}\nConsentement: ${consent ? 'Oui' : 'Non'}`,
+                text: `Nom: ${name}\nEmail: ${email}\nTéléphone: ${phone}\nMessage: ${message}\nType: ${type}\nConsentement: ${consent ? 'Oui' : 'Non'}`,
             });
 
             // Réponse de succès
