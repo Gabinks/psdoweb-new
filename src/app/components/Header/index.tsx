@@ -46,7 +46,7 @@ export default function Header() {
         <div className={"lg:flex hidden items-center gap-5"}>
             <CustomLink href={"/#entreprise"} text={"Pourquoi nous ?"}/>
             <CustomLink href={"/tarif"} text={"Nos tarifs"}/>
-            <CustomLink href={"/faq"} text={"A propos"}/>
+            <CustomLink href={"/faq"} text={"FAQ"}/>
         </div>
         <div className={"lg:flex hidden items-center gap-3"}>
             <CustomButton text={"Contact"}/>
@@ -99,7 +99,7 @@ export default function Header() {
                                 <li>Nos tarifs</li>
                             </Link>
                             <Link href={"/faq"}>
-                                <li>A propos</li>
+                                <li>FAQ</li>
                             </Link>
                         </ul>
                         <div className={"flex flex-col sm:flex-row items-center gap-3"}>
