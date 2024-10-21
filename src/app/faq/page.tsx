@@ -5,8 +5,7 @@ export default function Page() {
         <main className={"flex flex-col items-center gap-20"}>
             <div className={"w-screen flex flex-col items-center gap-5 font-extrabold mt-36 lg:mt-12"}>
                 <div className={"flex flex-col items-center"}>
-                    <h1 className={"text-4xl"}>F.A.Q</h1>
-                    <h3 className={"text-lg"}>(Questions fréquentes)</h3>
+                    <h1 className={"text-4xl"}>Foire aux questions</h1>
                 </div>
                 <div>
                     <p className={"text-md min-w-20 max-w-72 w-[50vw] text-center"}>Des questions ? Ce guide vous aidera à en savoir plus sur notre plateforme et ses fonctionnalités.</p>

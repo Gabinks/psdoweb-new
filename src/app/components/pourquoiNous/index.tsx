@@ -4,7 +4,7 @@ export default function PourquoiNous() {
     return (
         <div className="py-16 px-4" id={"entreprise"}>
             <h2 className="text-4xl font-bold text-center mb-12 below-lg:text-3xl">
-                Pourquoi Choisir PSDO Pour Votre Site Web ?
+                Pourquoi choisir PSDO pour votre site web ?
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl mx-auto">
                 {/* Professionnel */}
