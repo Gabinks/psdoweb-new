@@ -4,6 +4,7 @@ import CustomButton from "@/app/components/CustomButton";
 import Equipe from "@/app/components/equipe";
 import PourquoiNous from "@/app/components/pourquoiNous";
 import Conception from "@/app/components/conception";
+import SkillsIcons from "@/app/components/SkillsIcons";
 
 export default function Home() {
     return (
@@ -18,16 +19,16 @@ export default function Home() {
                     <p className={"md:w-[30vw] sm:w-[40vw] w-[65vw] px-2 text-center"}>{"Nous transformons vos idées en expériences numériques innovantes, capturant l'attention de votre public cible."}</p>
                 </div>
                 <div className={"grid grid-cols-2 sm:grid-cols-5 justify-items-center gap-20 p-24"}>
-                    <Image src={'/images/icons/figma.png'} alt={'Icone Figma'} height={30} width={30} sizes={"100vw"} className={"w-full min-w-7 max-w-7 h-auto"}/>
-                    <Image src={'/images/icons/react.png'} alt={'Icone React'} width={30} height={30} sizes={"100vw"} className={"w-full min-w-7 max-w-7 h-auto"}/>
-                    <Image src={'/images/icons/tailwindcss.png'} alt={'Icone TailwindCSS'} width={30} height={30} sizes={"100vw"} className={"w-full min-w-7 max-w-7 h-auto"}/>
-                    <Image src={'/images/icons/nextjs.png'} alt={'Icone NextJS'} width={30} height={30} sizes={"100vw"} className={"w-full min-w-7 max-w-7 h-auto"}/>
-                    <Image src={'/images/icons/nodejs.png'} alt={'Icone NodeJS'} width={30} height={30} sizes={"100vw"} className={"w-full min-w-7 max-w-7 h-auto"}/>
+                    <SkillsIcons source={"/images/icons/figma.png"} alt={"Figma"}/>
+                    <SkillsIcons source={"/images/icons/react.png"} alt={"React"}/>
+                    <SkillsIcons source={"/images/icons/tailwindcss.png"} alt={"TailwindCSS"}/>
+                    <SkillsIcons source={"/images/icons/nextjs.png"} alt={"NextJS"}/>
+                    <SkillsIcons source={"/images/icons/nodejs.png"} alt={"NodeJS"}/>
 
                     <div className={"col-span-1 hidden sm:block"}></div>
-                    <Image src={'/images/icons/wordpress.png'} alt={'Icone Wordpress'} width={30} height={30} sizes={"100vw"} className={"w-full min-w-7 max-w-7 h-auto"}/>
-                    <Image src={'/images/icons/seo.png'} alt={'Icone SEO'} width={30} height={30} sizes={"100vw"} className={"w-full min-w-7 max-w-7 h-auto"}/>
-                    <Image src={'/images/icons/shopify.png'} alt={'Icone Shopify'} width={30} height={30} sizes={"100vw"} className={"w-full min-w-7 max-w-7 h-auto"}/>
+                    <SkillsIcons source={"/images/icons/wordpress.png"} alt={"Wordpress"}/>
+                    <SkillsIcons source={"/images/icons/seo.png"} alt={"SEO"}/>
+                    <SkillsIcons source={"/images/icons/shopify.png"} alt={"Shopify"}/>
                     <div className={"col-span-1 hidden sm:block"}></div>
                 </div>
                 <div className={"bg-[url('/images/utils/fleche.png')] bg-center bg-contain h-[2rem] sm:h-auto sm:bg-contain w-[80vw] min-w-56 max-w-72 sm:max-w-none sm:w-[40rem] py-2 flex justify-center items-center"}>
