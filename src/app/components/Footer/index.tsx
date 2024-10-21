@@ -20,7 +20,7 @@ export default function Footer() {
     return <footer className={"w-full"}>
         <ul className={`flex xl:flex-row flex-col items-center justify-center gap-7 xl:gap-20 px-10 pt-32 pb-10 text-sm xl:text-base font-regular`}>
             <li><Link href={"/contact"}>Nous contacter</Link></li>
-            <li><Link href={'/faq'}>F.A.Q</Link></li>
+            <li><Link href={'/faq'}>FAQ</Link></li>
             <li><Link href={"/cgu"}>CGU</Link></li>
             <li><Link href={"/mentions-legales"}>Mentions légales</Link></li>
             <li><Link href={"mailto:baptiste.petit@psdoweb.com"}>baptiste.petit@psdoweb.com</Link></li>
