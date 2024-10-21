@@ -1,5 +1,4 @@
 import TextSlidin from "@/app/components/TextSlidin";
-import Image from "next/image";
 import CustomButton from "@/app/components/CustomButton";
 import Equipe from "@/app/components/equipe";
 import PourquoiNous from "@/app/components/pourquoiNous";
