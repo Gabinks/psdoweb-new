@@ -4,6 +4,15 @@ import Equipe from "@/app/components/equipe";
 import PourquoiNous from "@/app/components/pourquoiNous";
 import Conception from "@/app/components/conception";
 import SkillsIcons from "@/app/components/SkillsIcons";
+import {generatePageMetadata} from "@/utils/metadata";
+
+export async function generateMetadata(){
+    return generatePageMetadata({
+        title: "Accueil",
+        description: "Transformez votre vision en réalité avec notre service de création de sites web personnalisés. Contactez-nous dès aujourd'hui pour discuter de votre projet !",
+        keywords: ["création de sites web", "développement web", "conception de sites internet", "agence de création de sites", "site web sur mesure", "création de site e-commerce", "services de développement web", "design UX"]
+    })
+}
 
 export default function Home() {
     return (
@@ -12,7 +21,8 @@ export default function Home() {
                 className={"flex flex-col gap-10 items-center"}>
                 <div className={"pt-36 lg:pt-28 flex flex-col md:items-start items-center z-30"}>
                     <TextSlidin/>
-                    <p className={"font-almarai font-bold text-3xl sm:text-4xl md:text-5xl xl:text-6xl"}>uniques et sécurisés</p>
+                    <p className={"font-almarai font-bold text-3xl sm:text-4xl md:text-5xl xl:text-6xl"}>uniques et
+                        sécurisés</p>
                 </div>
                 <div>
                     <p className={"md:w-[30vw] sm:w-[40vw] w-[65vw] px-2 text-center"}>{"Nous transformons vos idées en expériences numériques innovantes, capturant l'attention de votre public cible."}</p>
@@ -30,7 +40,8 @@ export default function Home() {
                     <SkillsIcons source={"/images/icons/shopify.png"} alt={"Shopify"}/>
                     <div className={"col-span-1 hidden sm:block"}></div>
                 </div>
-                <div className={"bg-[url('/images/utils/fleche.png')] bg-center bg-contain h-[2rem] sm:h-auto sm:bg-contain w-[80vw] min-w-56 max-w-72 sm:max-w-none sm:w-[40rem] py-2 flex justify-center items-center"}>
+                <div
+                    className={"bg-[url('/images/utils/fleche.png')] bg-center bg-contain h-[2rem] sm:h-auto sm:bg-contain w-[80vw] min-w-56 max-w-72 sm:max-w-none sm:w-[40rem] py-2 flex justify-center items-center"}>
                     <CustomButton text={"Nous contacter"}/>
                 </div>
                 <Equipe/>
