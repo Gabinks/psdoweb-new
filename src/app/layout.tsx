@@ -6,6 +6,9 @@ import Footer from "@/app/components/Footer";
 export const metadata: Metadata = {
     title: "PSDOWeb",
     description: "Nous transformons vos idées en expériences numériques innovantes, capturant l'attention de votre public cible.",
+    verification: {
+        google: process.env.google
+    }
 };
 
 export default function RootLayout({
