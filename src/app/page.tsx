@@ -9,8 +9,8 @@ import { generatePageMetadata } from "@/utils/metadata";
 export async function generateMetadata() {
     return generatePageMetadata({
         title: "Accueil",
-        description: "Transformez votre vision en réalité avec notre service de création de sites web personnalisés. Contactez-nous dès aujourd'hui pour discuter de votre projet !",
-        keywords: ["création de sites web", "développement web", "conception de sites internet", "agence de création de sites", "site web sur mesure", "création de site e-commerce", "services de développement web", "design UX"]
+        description: "Création de sites internet, e-commerce et optimisation digitale. Votre agence web pour un référencement naturel efficace et un design responsive.",
+        keywords: ["création de site", "création de site internet", "e-commerce", "optimisation digitale", "référencement naturel", "responsive design", "agence web", "identité visuelle", "refonte", "projet web"]
     })
 }
 
