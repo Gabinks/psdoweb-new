@@ -1,8 +1,8 @@
 'use client'
 import Image from "next/image";
-import {useState, useEffect, useRef} from "react";
+import { useState, useEffect, useRef } from "react";
 
-export default function SkillsIcons({source, alt}: {source: string; alt: string}) {
+export default function SkillsIcons({ source, alt, toShow }: { source: string; alt: string, toShow: string }) {
     const [isClicked, setIsClicked] = useState(false);
     const iconRef = useRef<HTMLDivElement>(null);
 
@@ -32,7 +32,7 @@ export default function SkillsIcons({source, alt}: {source: string; alt: string}
         <div className={"relative"} ref={iconRef}>
             <Image
                 src={source}
-                alt={`Icone ${alt}`}
+                alt={`${alt}`}
                 width={30}
                 height={30}
                 onClick={clickHandler}
@@ -40,7 +40,7 @@ export default function SkillsIcons({source, alt}: {source: string; alt: string}
                 className={"w-full min-w-7 max-w-7 h-auto cursor-pointer"}
             />
             <div className={`${isClicked ? "opacity-100" : "opacity-0"} absolute -top-10 left-1/2 transform -translate-x-1/2 bg-black bg-opacity-80 drop-shadow-lg  text-white font-thin px-3 py-1 rounded-full text-sm transition-opacity duration-300`}>
-                <p>{alt}</p>
+                <p>{toShow}</p>
             </div>
         </div>
     );
