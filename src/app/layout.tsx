@@ -9,7 +9,7 @@ export const metadata: Metadata = {
         default: 'PSDOweb - Création de sites web innovants',
     },
     description: "Nous transformons vos idées en expériences numériques innovantes, capturant l'attention de votre public cible.",
-    keywords: ['création de site web', 'développement web', 'design responsive', 'SEO'],
+    keywords: ['création de site web', 'développement web', 'design responsive', 'SEO', 'Webdesign', 'Expérience Utilisateur', 'Conception de site', 'Web-Design', 'Création de site web', 'Créer un site', 'Responsive Design', 'Ergonomie', 'Vitrine', 'Refonte', 'Projet web', 'Adwords', 'CMS', 'Optimisation moteur de recherche'],
     openGraph: {
         type: 'website',
         locale: 'fr_FR',
