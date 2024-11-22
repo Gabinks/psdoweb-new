@@ -5,7 +5,7 @@ import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
     title: {
-        template: '%s | PSDOweb',
+        template: '%s',
         default: 'PSDOweb - Création de sites web innovants',
     },
     description: "Nous transformons vos idées en expériences numériques innovantes, capturant l'attention de votre public cible.",
